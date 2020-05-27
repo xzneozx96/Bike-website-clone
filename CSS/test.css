@@ -1,0 +1,77 @@
+#test {
+    min-height: 100vh;
+    background-image: url(/images/bg_05.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#test-heading {
+    color: white;
+    font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+    font-size: 6rem;
+    line-height: 6rem;
+    text-align: left;
+}
+#test-content {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.test-img-caption {
+    color: white;
+    font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.carousel:hover {
+    cursor: pointer;
+}
+/* change the carousel indicators to dots */
+.carousel-indicators li {
+    width: 5px!important;
+    height: 5px!important;
+    border-radius: 50%!important;
+}
+/* smooth transition for carousel-fade */
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+
+.top {
+    width: 100%;
+    height: 4rem;
+}
+.smoke-top {
+    width: 100%;
+    height: 4rem;
+    background-image: url(/images/decoration_top.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@media (max-width: 992px) {
+    #test-heading {
+        color: white;
+        font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: center;
+    }
+    #test-content {
+        color: rgba(255, 255, 255, 0.7);
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+}

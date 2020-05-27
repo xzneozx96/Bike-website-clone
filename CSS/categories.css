@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* CSS for categories section */
+#categories h2 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0 0 2.5rem 0;
+}
+#categories .jumbotron  {
+    margin: 0!important;
+    background-color: #f2f2f2!important;
+}
+.narrow.container {
+    min-width: 74%;
+    margin: 0 auto;
+}
+.smaller-padding {
+    padding: 1rem 0.3rem!important;
+}
+.categories-img-caption {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    /* margin-bottom: 1.5rem; */
+}
+.categories-img-caption .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    padding: 0  0 3.5rem 2.8rem;
+    background: linear-gradient(to bottom,  rgba(61,61,61,0) 0%,rgba(53,53,53,0.75) 100%);
+}
+.caption h3 {
+    position: absolute;
+    bottom: 10%;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.categories-img-caption:hover {
+    box-shadow: 0 20px 100px -10px rgba(0, 0, 0, 0.4);
+}
+.feature {
+    padding: 1rem 0;
+}
+.feature h4 {
+    color: rgb(10, 10, 10);
+    text-transform: uppercase;
+    margin: 0.6rem 0;
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+    line-height: 2rem;
+}
+.feature p {
+    color: rgb(104, 104, 104);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+}
+.feature i {
+    color: rgb(181, 181, 181);
+    font-size: 4rem;
+    line-height: 4rem;  
+}
+.feature i::after {
+    content: '';
+    display: block;
+    min-height: 2rem;
+}
+#vertical-line {
+    border-right: 1px solid #e1e1e1;
+}
+#green-box {
+    display: flex!important;
+    justify-content: flex-end;
+}
+.green-box-content {
+    background-color:rgba(14,191,127,1); 
+    margin-top: -5rem; 
+    position: relative; 
+    min-height: 300px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 85%;
+}
+@media (max-width: 576px) {
+    .green-box-content {
+        width: 100%;
+        margin-top: 0;
+    }
+    .feature {
+        padding: 2rem 0;
+    }
+}
+@media (max-width: 992px) {
+    .caption h3 {
+        font-size: 2rem;
+    }
+}
+#green-box h4,
+#green-box i,
+#green-box p {
+    color: white;
+}
+.footer {
+    width: 100%;
+    height: 4rem;
+}
+.smoke-footer {
+    width: 100%;
+    height: 8rem;
+    background-image: url(/images/decoration_bottom.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
