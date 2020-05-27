@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike Website</title>
+
+    <!-- Links to custom stylesheet -->
+    <link rel="stylesheet" href="/CSS/categories.css" />
+    <link rel="stylesheet" href="/CSS/spec.css" />
+    <link rel="stylesheet" href="/CSS/test.css" />
+    <link rel="stylesheet" href="/CSS/feature.css" />
+    <link rel="stylesheet" href="/CSS/experience.css" />
+    <link rel="stylesheet" href="/CSS/blog.css" />
+    <link rel="stylesheet" href="/CSS/footer.css" />
+    <link rel="stylesheet" href="/CSS/header.css" />
+
+    <!-- Link to swiper css -->
+    <!-- <link rel="stylesheet" href="/swiper.min.css" /> -->
+
+    <!-- Link to font awesome -->
+    <script
+      src="https://kit.fontawesome.com/bee75fca36.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--- Script Source Files -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <!--- End of Script Source Files -->
+
+    <!--Enable Swipe gestures Plugin-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+
+    <!-- Link to boostrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!-- Link to google's font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start header section -->
+    <div id="page-header" style="position: relative;">
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-md navbar-dark py-md-5">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo.png" alt="" />
+          </a>
+          <button
+            class="navbar-toggler ml-auto"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item mr-0">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carousel -->
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-ride="carousel"
+        data-interval="false"
+        muted
+        autoplay="autoplay"
+        loop="loop"
+        preload="auto"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active img-fluid">
+            <div class="container">
+              <div class="slide-overlay">
+                <div class="slide-headline" id="first-reveal">
+                  <div class="secret-box-one"></div>
+                  <div class="secret-box-two"></div>
+                  <div class="slide-content">
+                    <p>Great Look</p>
+                    <p>And Incredibly</p>
+                    <p>Power</p>
+                  </div>
+                </div>
+                <div class="shop-now">
+                  <a href="https://demo.kallyas.net/bike/shop/" class="btn"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="slide-overlay">
+                <div class="slide-headline">
+                  <div class="secret-box-one"></div>
+                  <div class="secret-box-two"></div>
+                  <div class="slide-content">
+                    <p>Any trail</p>
+
+                    <p>Any Time</p>
+                  </div>
+                </div>
+                <div class="shop-now">
+                  <a href="https://demo.kallyas.net/bike/shop/" class="btn"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="slide-overlay">
+                <div class="slide-headline">
+                  <div class="secret-box-one"></div>
+                  <div class="secret-box-two"></div>
+                  <div class="slide-content">
+                    <p>MTB mega</p>
+                    <p>Course video</p>
+                  </div>
+                </div>
+                <div class="shop-now">
+                  <a href="https://demo.kallyas.net/bike/shop/" class="btn"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="slide-overlay">
+                <div class="slide-headline">
+                  <div class="secret-box-one"></div>
+                  <div class="secret-box-two"></div>
+                  <div class="slide-content">
+                    <p>Conqure</p>
+                    <p>The Wild</p>
+                  </div>
+                </div>
+                <div class="shop-now">
+                  <a href="https://demo.kallyas.net/bike/shop/" class="btn"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="slide-overlay">
+                <div class="slide-headline">
+                  <div class="secret-box-one"></div>
+                  <div class="secret-box-two"></div>
+                  <div class="slide-content">
+                    <p>MTB event.</p>
+                    <p>reserve your spot</p>
+                  </div>
+                </div>
+                <div class="shop-now">
+                  <a href="https://demo.kallyas.net/bike/shop/" class="btn"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="slide-overlay">
+                <div class="slide-headline">
+                  <div class="secret-box-one"></div>
+                  <div class="secret-box-two"></div>
+                  <div class="slide-content">
+                    <p>Sant cruz</p>
+                    <p>hightower lt</p>
+                  </div>
+                </div>
+                <div class="shop-now">
+                  <a href="https://demo.kallyas.net/bike/shop/" class="btn"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="slide-overlay">
+                <div class="slide-headline">
+                  <div class="secret-box-one"></div>
+                  <div class="secret-box-two"></div>
+                  <div class="slide-content">
+                    <p>pivot mach 4</p>
+                    <p>and les 27.5</p>
+                  </div>
+                </div>
+                <div class="shop-now">
+                  <a href="https://demo.kallyas.net/bike/shop/" class="btn"
+                    >Shop now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="arrows">
+                    <div class="left" href="#carouselExampleControls" role="button" data-slide="prev"></div>
+            
+                    <div class="right" href="#carouselExampleControls" role="button" data-slide="next"></div>
+                </div> -->
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            data-slide="prev"
+          >
+            <span class="left"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            data-slide="next"
+          >
+            <span class="right"></span>
+          </a>
+        </div>
+        <div class="bg-img"></div>
+      </div>
+    </div>
+
+    <!-- Start categories section-->
+    <div id="categories" class="offset">
+      <div class="jumbotron px-0">
+        <div class="narrow container">
+          <div class="col-12 text-center">
+            <h2>Categories</h2>
+          </div>
+          <div class="row gutter-xs">
+            <div class="col-sm-4 smaller-padding">
+              <div class="categories-img-caption">
+                <img src="/images/img_05.jpg" class="img-fluid" />
+                <div class="caption">
+                  <h3>Hardtail</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 smaller-padding">
+              <div class="categories-img-caption">
+                <img src="/images/img_01.jpg" class="img-fluid" />
+                <div class="caption">
+                  <h3>Full Suspension</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 smaller-padding">
+              <div class="categories-img-caption">
+                <img src="/images/img_06.jpg" class="img-fluid" />
+                <div class="caption">
+                  <h3>Rigid</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron px-0 pb-0">
+        <div class="container">
+          <div class="row gutter-xs text-center">
+            <div class="col-sm-4">
+              <div class="feature" id="vertical-line">
+                <i class="fas fa-truck"></i>
+                <h4>Free Delivery</h4>
+                <p>on orders over $100</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="feature">
+                <i class="fas fa-undo"></i>
+                <h4>30 day return policy</h4>
+                <p>no question asked</p>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="feature" id="green-box">
+                <div class="green-box-content">
+                  <div style="width: 100%;">
+                    <i class="fas fa-bicycle"></i>
+                    <h4>Ready to ride</h4>
+                    <p>fully assembled bikes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer"></div>
+        <div class="smoke-footer"></div>
+      </div>
+    </div>
+
+    <!-- Start specification section -->
+    <div id="spec" class="offset">
+      <div class="jumbotron px-0">
+        <div class="narrow container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2>Specifications</h2>
+            </div>
+            <div class="col-12" style="position: relative;">
+              <img src="/images/specs.jpg" class="img-fluid" />
+              <a
+                href="#"
+                class="circle"
+                data-toggle="tooltip"
+                data-animation="true"
+                data-placement="top"
+                title="assertively recaptualize ethical"
+                >1</a
+              >
+              <a
+                href="#"
+                class="circle"
+                data-toggle="tooltip"
+                data-animation="true"
+                data-placement="top"
+                title="assertively recaptualize ethical"
+                id="circle-2"
+                >2</a
+              >
+              <a
+                href="#"
+                class="circle"
+                data-toggle="tooltip"
+                data-animation="true"
+                data-placement="top"
+                title="assertively recaptualize ethical"
+                id="circle-3"
+                >3</a
+              >
+              <a
+                href="#"
+                class="circle"
+                data-toggle="tooltip"
+                data-animation="true"
+                data-placement="top"
+                title="assertively recaptualize ethical"
+                id="circle-4"
+                >4</a
+              >
+              <a
+                href="#"
+                class="circle"
+                data-toggle="tooltip"
+                data-animation="true"
+                data-placement="top"
+                title="assertively recaptualize ethical"
+                id="circle-5"
+                >5</a
+              >
+            </div>
+            <div class="col-sm-6 mx-auto mt-5 text-center">
+              <p>
+                Assertively recaptiualize ethical content through timely niches.
+                <br />
+                Interactively fabricate cutting-edge portals via timely
+                paradigms
+              </p>
+            </div>
+            <div class="col-12 mt-5 text-center">
+              <a href="https://instagram.com" class="insta-link"
+                >@instagrammusername</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Test before buying section -->
+    <div id="test" class="offset">
+      <div class="smoke-top"></div>
+      <div
+        class="container d-flex align-items-center"
+        style="min-height: 80vh; padding-top: 100px; padding-bottom: 100px;"
+      >
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-12">
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+              "
+            >
+              <p id="test-heading">Test it before buying</p>
+              <p id="test-content">
+                Assertively recaptiualize ethical content through timely niches.
+                Interactively fabricate cutting-edge portals via timely
+                paradigms
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-md-1 col-md-12">
+            <div
+              id="carouselExampleFade"
+              class="carousel carousel-fade"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleFade"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p class="test-img-caption">Track 1</p>
+                  <img src="/images/track_01.png" class="d-block w-100"">
+                </div>
+                <div class="carousel-item">
+                  <p class="test-img-caption">Track 2</p>
+                  <img src="/images/track_02.png" class="d-block w-100"">
+                </div>
+                <div class="carousel-item">
+                  <p class="test-img-caption">Track 3</p>
+                  <img src="/images/track_03.png" class="d-block w-100"">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="smoke-footer"></div>
+    </div>
+
+    <!-- Start Feature section -->
+    <div class="offset" id="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-12">
+            <h2 class="feature-heading">Featured Bikes</h2>
+            <a
+              href="https://demo.kallyas.net/bike/shop/"
+              class="btn website-link"
+              >Shop bikes</a
+            >
+          </div>
+          <div class="col-md-9 col-sm-12">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 translateY">
+                <div class="feature-product text-center">
+                  <img src="/images/prod06-300x300.jpg" class="img-fluid" />
+                  <div class="product-footer">
+                    <div class="feature-product-info">
+                      <h3>Lorem Bike</h3>
+                      <span>$560.00</span>
+                    </div>
+                    <div class="product-info-overlay">
+                      <a href="#" class="btn add-to-cart">add to cart</a>
+                      <a
+                        href="https://demo.kallyas.net/bike/product/lorem-bike/"
+                        class="more-info"
+                        >more info</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="feature-product text-center">
+                  <img src="/images/prod04-300x300.jpg" class="img-fluid" />
+                  <div class="product-footer">
+                    <div class="feature-product-info">
+                      <h3>Amet Bike</h3>
+                      <span>$640.00</span>
+                    </div>
+                    <div class="product-info-overlay">
+                      <a href="#" class="btn add-to-cart">add to cart</a>
+                      <a
+                        href="https://demo.kallyas.net/bike/product/lorem-bike/"
+                        class="more-info"
+                        >more info</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 translateY">
+                <div class="feature-product text-center">
+                  <img src="/images/prod07-300x300.jpg" class="img-fluid" />
+                  <div class="product-footer">
+                    <div class="feature-product-info">
+                      <h3>Sagittis Bike</h3>
+                      <span>$680.00</span>
+                    </div>
+                    <div class="product-info-overlay">
+                      <a href="#" class="btn add-to-cart">add to cart</a>
+                      <a
+                        href="https://demo.kallyas.net/bike/product/lorem-bike/"
+                        class="more-info"
+                        >more info</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <div class="feature-product text-center">
+                  <img src="/images/prod05-300x300.jpg" class="img-fluid" />
+                  <div class="product-footer">
+                    <div class="feature-product-info">
+                      <h3>Lobortis Bike</h3>
+                      <span>$579.00</span>
+                    </div>
+                    <div class="product-info-overlay">
+                      <a href="#" class="btn add-to-cart">add to cart</a>
+                      <a
+                        href="https://demo.kallyas.net/bike/product/lorem-bike/"
+                        class="more-info"
+                        >more info</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start user's experience section -->
+    <div id="user-experience">
+      <div class="jumbotron p-0">
+        <div class="smoke-top"></div>
+        <div class="container justify-content-between">
+          <div class="row">
+            <div class="col-md-5">
+              <h2 class="user-experience-heading">Quisque faucibus turpis</h2>
+              <p class="user-experience-content">
+                Rapidiously leverage other's scalable intellectual capital for
+                backward-compatible schemas. Globally facilitate virtual
+                mindshare rather than enterprise-wide best practices.
+                Monotonectally visualize viral schemas through fully tested
+                synergy
+              </p>
+              <div class="vertical-line"></div>
+              <img
+                src="/images/img_07.jpg"
+                class="img-fluid margin-bottom-on-sm"
+              />
+            </div>
+            <div class="col-md-5 offset-md-2">
+              <img src="/images/img_08.jpg" class="img-fluid" />
+              <div class="vertical-line"></div>
+              <h2 class="user-experience-heading margin-top-heading">
+                Praesent tincidunt
+              </h2>
+              <p class="user-experience-content">
+                Rapidiously leverage other's scalable intellectual capital for
+                backward-compatible schemas. Globally facilitate virtual
+                mindshare rather than enterprise-wide best practices.
+                Monotonectally visualize viral schemas through fully tested
+                synergy
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="smoke-footer"></div>
+      </div>
+    </div>
+
+    <!-- Start blog section -->
+    <div id="blog">
+      <div div class="container" style="position: relative;">
+        <div class="col-12 text-center">
+          <h2 class="blog-heading">Latest from the blog</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a
+              href="https://demo.kallyas.net/bike/2017/07/25/the-camden-cycling-watch/"
+              class="blog-img"
+            >
+              <img src="/images/blog_04-370x200_c.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="https://demo.kallyas.net/bike/2017/07/25/the-camden-cycling-watch/"
+              class="blog-link"
+            >
+              The Camden cycling watch
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://demo.kallyas.net/bike/2017/07/25/5-ways-to-be-a-real-cyclist-plus-5-more/"
+              class="blog-img"
+            >
+              <img src="/images/blog_03-370x200_c.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="https://demo.kallyas.net/bike/2017/07/25/5-ways-to-be-a-real-cyclist-plus-5-more/"
+              class="blog-link"
+            >
+              5 ways to be a real cyclist plus 5 more
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              href="https://demo.kallyas.net/bike/2017/07/25/how-to-cycle-in-a-group/"
+              class="blog-img"
+            >
+              <img src="/images/blog_02-370x200_c.jpg" class="img-fluid" />
+            </a>
+            <a
+              href="https://demo.kallyas.net/bike/2017/07/25/how-to-cycle-in-a-group/"
+              class="blog-link"
+              class="blog-img"
+            >
+              How to Cycle in a Group
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <a
+            href="https://demo.kallyas.net/bike/blog/"
+            class="btn website-link mx-auto"
+            >Go to blog</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Footer section -->
+
+    <div id="inspire">
+      <div class="smoke-top"></div>
+      <div class="container d-flex align-items-center">
+        <div class="col-12 text-center">
+          <p class="inspiring-quote">
+            Have fun, be active. Ride a bike instead of driving, for example
+          </p>
+          <p class="inspiring-quote-author">Dan Buettner</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container" style="position: relative;">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="about-us">
+              <h4>About us</h4>
+              <p>
+                Collaboratively communicate granular quality vectors through
+                parallel intellectual capital. Dynamically conceptualize equity
+                invested e-commerce through user-centric human capital.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="corporate-info">
+              <h4>Corporate Info</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">B2B</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Cookies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="corporate-info">
+              <h4>Customer Service</h4>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <a href="#">Careers</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">B2B</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#">Cookies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="follow">
+              <h4>Follow us</h4>
+              <ul class="social-list">
+                <li>
+                  <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr
+            style="
+              background-color: #2d2d2d;
+              width: 100%;
+              margin: 4rem 0;
+              height: 0.5px;
+            "
+          />
+          <div class="col-12 text-center">
+            <p class="inspiring-quote" style="margin-bottom: 0;">
+              @2017 Kallyas theme. allrights reserved to hogash studio
+            </p>
+          </div>
+          <div class="col-12" id="special-box">
+            <div id="sign-up-box">
+              <div class="box-content">
+                <p>Sign up to our newsletter</p>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter your email address"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Enable tooltip everywhere and swipe gestures (go to next slide by swiping to the left/right instead of clicking prev/next buttons)-->
+    <script>
+      let hiddenText = document.querySelectorAll(".slide-content");
+      setTimeout(() => {
+        hiddenText[0].style.opacity = 1;
+      }, 1600);
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $(".carousel").swipe({
+          swipe: function (
+            event,
+            direction,
+            distance,
+            duration,
+            fingerCount,
+            fingerData
+          ) {
+            if (direction == "left") $(this).carousel("next");
+            if (direction == "right") $(this).carousel("prev");
+          },
+          allowPageScroll: "vertical",
+        });
+
+        // The solution to: how to activate animations on each carousel item only when it is slided to
+        $("#carouselExampleControls").on("slid.bs.carousel", function (event) {
+          let currentIndex = parseInt(event.to); //get index of the next slide
+          let prevIndex = parseInt(event.from); //get index of the previous slide
+          setTimeout(() => {
+            hiddenText[currentIndex].style.opacity = 1;
+            hiddenText[prevIndex].style.opacity = 0;
+          }, 1600);
+        });
+      });
+    </script>
+  </body>
+</html>
